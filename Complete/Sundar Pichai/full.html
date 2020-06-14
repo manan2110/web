@@ -15,31 +15,57 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="sundar.js">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
     
 </head>
 
 <body>
-  <div class="jumbotron text-center">
+  <header>
+  <div class=" text-center">
     <a href="full.html" style="text-decoration: none; color:black;">
     <h1>Sundar Pichai</h1>
     <p class="Quote" >“It is Important to Follow Your Dreams and Heart. Do Something that Excites You.” 
     </p>
     </a>    
   </div>
+  </header>
+
   <div id="main-content">
     <p>
       Pichai Sundararajan (born June 10, 1972), also known as Sundar Pichai , is an Indian-American business executive, the chief executive officer (CEO) of Alphabet Inc. and its subsidiary Google LLC. Pichai began his career as a materials engineer and joined Google as a management executive in 2004. He rose to become the company's Product Chief and the CEO in 2015, as part of the restructuring process that turned Alphabet Inc. into Google's parent company.In December 2019, he additionally became CEO of Alphabet Inc.
     </p>
 
-   <div class="embeded-responsive " style="text-align: center;">
-    <iframe width="300" height="200" src="https://www.youtube.com/embed/ic5O2sxhH9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-responsive text-center">
   
-    </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/gEDChDOM1_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+</div>
+<footer>
+  <div class="action" onclick="actionToggle()">
+    <span>+</span>
+    <ul>
+      
+      <li> <img src="">Follow us on Facebook</li>
+      <li> <img src="">Follow us on Instagram</li>
+      <li> <img src="">Follow us on Linkdin</li>
+      <li> <img src="">Follow us on Twitter</li>
+      <li> <img src="">Follow us on Youtube</li>
+
+    </ul>
 
     
-
   </div>
+</footer>
+<script type="text/javascript">
+  function actionToggle() {
+  var action = document.querySelector('.action');
+  action.classList.toggle('active')
+  // body...
+}
+</script>
 
 </body>
 
